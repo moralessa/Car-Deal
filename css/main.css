@@ -1,0 +1,124 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5e6;
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+}
+
+.firstNav {
+  background-color: #1d4a8a;
+}
+
+.firstNav ul li a {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.firstNav ul li a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.firstNav ul li a:focus {
+  color: white !important;
+}
+
+.secondNav {
+  background-color: #fff5e6 !important;
+}
+
+.secondNav img {
+  width: 8rem;
+}
+
+.secondNav .nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondNav .nav .fa-bell {
+  font-size: 2rem;
+  color: #1d4a8a;
+}
+
+.secondNav .nav .btn-round {
+  padding: .6rem 1rem;
+  background-color: #fff5e6;
+  border: 1px solid #1d4a8a;
+}
+
+.secondNav .nav .btn-round:hover {
+  background-color: whitesmoke;
+}
+
+.secondNav .nav li {
+  margin-left: 2vw !important;
+}
+
+.secondNav .nav li a {
+  color: #1d4a8a !important;
+}
+
+.secondNav .nav li a:hover {
+  color: #c2b144f3  !important;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("../images/FordJumbo.jpg");
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position-y: -15rem;
+  background-size: cover;
+}
+
+.jumbotron span {
+  color: #1d4a8a;
+  font-weight: 600;
+}
+
+.jumbotron h1 {
+  color: #fff5e6;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  padding-top: 7%;
+}
+
+.jumbotron P {
+  color: #fff5e6;
+}
+
+.jumbotron .gfbtn {
+  background-color: #1d4a8a;
+  border: 2px solid #1d4a8a;
+  font-size: 1.5rem;
+}
+
+.jumbotron .gfbtn:hover {
+  border-color: #fff5e6;
+}
+
+.jumbotron .gfbtn:active, .jumbotron .gfbtn:focus {
+  -webkit-box-shadow: 0 0 10px #fff5e6 !important;
+          box-shadow: 0 0 10px #fff5e6 !important;
+}
+
+.jumbotron .gfbtn2 {
+  background-color: #fff5e6;
+  border: 3px solid #1d4a8a;
+  font-size: 1rem;
+  color: #1d4a8a;
+}
+
+.jumbotron .gfbtn2:hover {
+  border-color: #fff5e6;
+}
+
+.jumbotron .gfbtn2:active, .jumbotron .gfbtn2:focus {
+  -webkit-box-shadow: 0 0 10px #fff5e6 !important;
+          box-shadow: 0 0 10px #fff5e6 !important;
+}
+/*# sourceMappingURL=main.css.map */

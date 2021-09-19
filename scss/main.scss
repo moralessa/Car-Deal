@@ -1,0 +1,132 @@
+//Logo Blue color #1d4a8a
+//Logo yellow color #ffec70
+//Background color: #fff5e6
+
+
+//Global styles
+html {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff5e6;
+    font-family: "Kanit", Arial, Helvetica, sans-serif;
+}
+
+
+
+//nav
+.firstNav{
+    background-color: #1d4a8a;
+    ul{
+        li{
+            a{
+                font-family: "Rubik", Arial, Helvetica, sans-serif;
+                color: white;
+
+                &:hover{
+                    color: white !important;
+                    text-decoration: underline;
+                }
+
+                &:focus{
+                    color: white !important;
+                }
+            }
+
+            
+        }
+    }
+}
+
+.secondNav {
+    background-color: #fff5e6 !important;
+    img {
+        width: 8rem;
+    }
+    .nav {
+        align-items: center;
+        .fa-bell{
+            font-size: 2rem;
+            color: #1d4a8a;
+        }
+        .btn-round {
+            padding: .6rem 1rem;
+            background-color: #fff5e6;
+            border: 1px solid #1d4a8a;
+
+            &:hover{
+                background-color: whitesmoke;
+            }
+        }
+        li {
+            margin-left: 2vw !important;
+
+            a{
+                color: #1d4a8a !important;
+
+                &:hover{
+                    color: #c2b144f3  !important;
+                }
+            }
+
+            
+        }
+    }
+}
+
+
+// Jumbotron desktop
+.jumbotron{
+    text-align: center;
+    background-image: url("../images/FordJumbo.jpg");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position-y: -15rem;
+    background-size: cover;
+    
+    span{
+        color: #1d4a8a;
+        font-weight: 600;
+    }
+
+    h1{
+        color: #fff5e6;
+        font-family: "Oswald", Arial, Helvetica, sans-serif;
+        padding-top: 7%;
+    }
+    P{
+        color: #fff5e6;
+        
+    }
+
+    .gfbtn{
+        background-color: #1d4a8a;
+        border: 2px solid #1d4a8a;
+        font-size: 1.5rem;
+
+
+        &:hover{
+            border-color: #fff5e6;
+        }
+
+        &:active, &:focus{
+            box-shadow: 0 0 10px#fff5e6 !important;
+        }
+    }
+
+    .gfbtn2{
+        background-color: #fff5e6;
+        border: 3px solid #1d4a8a;
+        font-size: 1rem;
+        color: #1d4a8a;
+
+        &:hover{
+            border-color: #fff5e6;
+        }
+
+        &:active, &:focus{
+            box-shadow: 0 0 10px#fff5e6 !important;
+        }
+    }
+}
