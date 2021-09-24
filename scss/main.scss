@@ -2,6 +2,7 @@
 //Logo yellow color #ffec70
 //Background color: #fff5e6
 
+@import "custom";
 
 //Global styles
 *{
@@ -67,6 +68,8 @@ p{
         width: 100%;
     }
 }
+
+//ffec70
 
 .secondNavdk, .secondNavmb {
     background-color: #fff5e6 !important;
@@ -258,9 +261,9 @@ p{
         .bodyIcons{
             list-style: none;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             text-align: center;
-            
+                     
             li{
                 margin-top: 12%;
 
@@ -414,7 +417,7 @@ p{
 //MotorHome Paralax
 
 .paralaxMotorHome{
-    background-image: url('../images/ParalaxImages/Background.jpg');
+    background-image: url('../images/ParalaxImages/Background .jpg');
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -640,7 +643,7 @@ p{
 
         .intro{
             background-color: #ece8e1;
-            font-family: "Oswald";
+            font-family: "Oswald", Arial, Helvetica, sans-serif;
             height: 12rem;
         }
 
@@ -664,6 +667,182 @@ p{
                     color: black;
                     margin-left: .2rem;
                 }
+            }
+        }
+    }
+}
+
+
+//FAQ Section
+
+.FAQ{
+    color: #1d4a8a;
+    h2{
+        font-family: "Oswald", Arial, Helvetica, sans-serif;
+    }
+
+    .lead{
+        font-family: "Rubik",  Arial, Helvetica, sans-serif;
+    }
+    .swipeContainer{
+        background: #ece8e1;
+        border: 2px solid #1d4a8a;
+        border-radius: 5%;
+        padding: 1rem
+    }
+    .swiper {
+        width: 20rem;
+        height: 75%;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .swiper-slide:nth-child(1n) {
+        background-color: rgb(206, 17, 17);
+      }
+
+      .swiper-slide:nth-child(2n) {
+        background-color: rgb(0, 140, 255);
+      }
+
+      .swiper-slide:nth-child(3n) {
+        background-color: rgb(10, 184, 111);
+      }
+
+      .card{
+        font-size: 1rem;
+        text-align: center;
+        background-color: #1d4a8a;
+        border-radius: 2%;
+        height: 100%;
+        width: 100%;
+        color: #ece8e1;
+
+        h5{
+            font-size: 1.5rem;
+        }
+
+        .intro{
+            background-color: #1d4a8a;
+            font-family: "Oswald";
+
+            button{
+                background-color: #1d4a8a;
+                color: #fff5e6;
+                border: 1px solid #fff5e6;
+
+                &:hover{
+                    background-color: #ece8e1;
+                    color: #1d4a8a;
+                }
+    
+                &:active, &:focus{
+                    box-shadow: 0 0 10px #1d4a8a !important;
+                }
+            }
+        }
+
+        .specs{
+            text-align: start;
+            padding: 5px;
+            background-color: #fff5e6;
+            border: 2px solid gray;
+            .spec:nth-child(1){
+                border-top: none;
+            }
+
+            .spec{
+                margin-left: none;
+                color: #1d4a8a;
+                border: 2px solid gray;
+                border-left: none;
+                border-right: none;
+                border-bottom: none;
+
+                span{
+                    color: black;
+                    margin-left: .2rem;
+                }
+            }
+        }
+    }
+
+    .accordionContainer{
+    
+        .accordion{
+            .accordion-item{
+                background-color: #ece8e1;
+                font-family: "Rubik", Arial, Helvetica, sans-serif;
+                color: #1d4a8a;
+                border: 2px solid #1d4a8a;
+                margin-bottom: 1rem;
+                border-radius: 2%;
+
+                .accordion-button{
+                    font-size: 1.3rem;
+                    justify-content: center;
+                    background-color: #1d4a8a;
+                    color:#ece8e1;
+                    margin: 4px;
+                    width: 99%;
+                    border-radius: 2%;
+
+                }
+            }
+        }
+    }
+}
+
+
+//Footer
+
+footer{
+    align-items: center;
+    width: 100vw;
+    background-color: #1d4a8a;
+    padding: 2rem 0;
+    color: #ece8e1;
+    .logoContainer{
+
+        img{
+            width: 45%;
+            border-radius: 20%;
+        }
+    }
+
+    .contactUs{
+       p:hover{
+           text-decoration:underline;
+           cursor: pointer;
+       }
+    }
+
+    .smLinks{
+        a:hover{
+            opacity: .8;
+        }
+        i{
+            color: #ece8e1;
+            font-size: 2rem;
+            padding: .2rem;
+        }
+    }
+
+    .aLinks{
+        a{
+            color: #ece8e1;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
             }
         }
     }
